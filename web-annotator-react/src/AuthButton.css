@@ -1,0 +1,21 @@
+.signIn--btn{
+    font-family: monospace;
+    position:absolute;
+    position: fixed;
+    z-index:400;
+    left:30%;
+    top: 90%;
+    font-size:24px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    backface-visibility: hidden;
+  }
+  .signIn--btn:hover{
+    transform: scale(1.2);
+    /* background-color: transparent; */
+    /* color: black; */
+    transition: all ease-out 0.4s;
+  }

@@ -1,7 +1,8 @@
 import React,{ useState } from 'react';
 import './App.css';
-import Annote from './annotation/ann';
-import TestGrid from './testGrid';
+import Annote from 'web-annotator-react';
+import TestGrid from "./testGrid"
+
 function App() {
   const [coords,setCoords]=useState({
    origin:{
@@ -13,7 +14,7 @@ function App() {
     y:0
    }
   })
-let verificationID = ''
+let verificationID = '468c51dd-e9f1-47ed-8413-33adaff3ce29'
   return (
     <Annote
        onSelect={(e,coords)=>{
@@ -30,6 +31,7 @@ let verificationID = ''
       }}
       annoteId={verificationID}
     >
+      <TestGrid />
     </Annote>
   );
 }

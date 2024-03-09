@@ -1,0 +1,122 @@
+.main-comments--div{
+    font-family: monospace;
+   padding: 20px;
+    position:absolute;
+    z-index:40;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:500px;
+    min-width:400px;
+    /* background-color:rgba(0,0,0,0.7); */
+    background-color: white;
+    border: 1px solid #2962ff;
+    backdrop-filter: blur;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.btn-close{
+    color: red;
+    text-align: right;
+    margin-bottom: 5px;
+    right:0;
+}
+
+.add-comment--input{
+    font-family: monospace;
+    width: 100%;
+    margin-bottom: 1px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+    padding: 5px;
+}
+
+
+.resolve--btn{
+    font-family: monospace;
+    background-color:#224B0C;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 4px 0 4px 4px;
+    padding: 6px 10px;
+    /* backface-visibility: hidden; */
+}
+
+/* .resolve--btn:hover{
+    opacity: 0.9;
+    transition: all 0.2s;
+} */
+
+.view-replies--btn{
+    font-family: monospace;
+    background-color:#A2CDCD;
+    border: none;
+    color: #333;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-right: 10px;
+}
+.add-comment--input{
+    font-family: monospace;
+     /* display: block; */
+     width: 100%;
+     background-color: transparent;
+     outline: none;
+     border: none;
+     border-bottom: 4px solid black;
+     color: black;
+     padding: 5px;
+ }
+ 
+ .add-comment--input::placeholder{
+    font-family: monospace;
+     color: black;
+ }
+ 
+ ::-webkit-scrollbar{
+    display: none;
+ }
+ .add-comment--btn{
+    font-family: monospace;
+     border: none;
+     background-color: #2962ff;
+     font-size: 18px;
+     padding: 15px 8px 15px 8px;
+     letter-spacing: 1px;
+     color: white;
+     width: 100%;
+  border-radius: 0 0 5px 5px;
+ }
+
+ .recieved--comment{
+    background-color: #FCF8E8;
+    padding: 20px 25px;
+    margin: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    letter-spacing : 2px;
+    overflow: hidden;
+    width:70%;
+ }
+
+ .sent--comment{
+    background-color: #A5C9CA;
+    padding: 20px 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0;
+    margin: 5px;
+    letter-spacing : 2px;
+    overflow: hidden;
+    width:70%;
+    align-self: flex-end;
+ }
