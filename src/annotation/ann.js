@@ -16,6 +16,7 @@ import SignIn from '../auth/SignIn';
 // ========================
 
 export default function Ann(props) {
+
     const [animationInProgress,setAnimationInProgress]=useState();
     const [viewCommentsFlag,setViewCommentsFlag]=useState(false)
     // id of annotation box as a whole

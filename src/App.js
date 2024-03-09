@@ -30,7 +30,6 @@ let verificationID = ''
       }}
       annoteId={verificationID}
     >
-<TestGrid />
     </Annote>
   );
 }
